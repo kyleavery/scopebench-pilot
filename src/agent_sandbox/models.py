@@ -18,6 +18,7 @@ SANDBOX_PROVIDERS: dict[str, str] = {
     "anthropic": "ANTHROPIC_API_KEY",
     "openai": "OPENAI_API_KEY",
     "google": "GOOGLE_API_KEY",
+    "openrouter": "OPENROUTER_API_KEY",
 }
 
 _GEMINI_FALLBACK_ENV = "GEMINI_API_KEY"

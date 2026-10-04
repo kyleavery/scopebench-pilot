@@ -214,7 +214,7 @@ def test_main_harness_rejects_unsupported_provider(
     assert main(argv) == 2
     err = capsys.readouterr().err
     assert "'groq'" in err
-    assert "Supported providers: anthropic, openai, google" in err
+    assert "Supported providers: anthropic, openai, google, openrouter" in err
 
 
 def test_main_harness_rejects_bare_model_string(
